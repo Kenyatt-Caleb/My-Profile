@@ -1,0 +1,71 @@
+/* MY STYLES  */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+  }
+  
+  header, footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 1em;
+  }
+  
+  main {
+    padding: 2em;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .profile-pic {
+    width: 120px;
+    border-radius: 50%;
+    border: 2px solid #555;
+  }
+  
+  #profile {
+    text-align: center;
+    margin-bottom: 2em;
+  }
+  
+  .card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 1.5em;
+    margin-bottom: 1.5em;
+  }
+  
+  #error {
+    color: red;
+  }
+  
+  .error-msg {
+    color: red;
+    font-size: 0.9em;
+  }
+  
+  form input {
+    display: block;
+    width: 90%;
+    padding: 0.5em;
+    margin: 0.5em 0;
+  }
+  
+  form button {
+    padding: 0.6em 1em;
+    background: #FF7800;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 6px;
+  }
+  
+  form button:hover {
+    background: #ea932e;
+    color: black;
+  }
+  

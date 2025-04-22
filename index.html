@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Caleb Profile Page</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body onload="showGreetings()">
+  <header>
+    <p id="greetings"></p>
+    <h1>Welcome to Caleb Kenyatta's Profile</h1>
+  </header>
+  <main>
+    <!-- MY PROFILE SECTION  -->
+    <section id="profile">
+      <img src="profile_photo.JPG" alt="My Profile Photo" class="profile-pic" />
+      <h2>Kenyatta Nyangena Caleb</h2>
+      <p id="biodata" data-expanded="false">
+        I am a Business Information and Technology student at JKUAT. I love coding and learning new technologies in the tech industry.
+      </p>
+      <button id="bio-toggle-btn" onclick="expandBio()">Read More</button>
+    </section>
+
+    <!-- MY SKILLS SECTION  -->
+    <section class="card">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML</li>
+        <li>JavaScript</li>
+        <li>CSS</li>  
+        <li>Python</li>
+        <li>Git & GitHub</li>
+      </ul>
+    </section>
+
+    <!-- MY COMPLETED PROJECTS SECTION -->
+    <section class="card">
+      <h2>My Projects</h2>
+      <ul>
+        <li>Portfolio Website</li>
+        <li>Sporting App</li>
+        <li>Remote Gym Training App</li>
+        <li>Human Resource Management App</li>
+      </ul>
+    </section>
+
+    <!-- MY FORM SECTION  -->
+    <section class="card">
+      <h2>In need of a newsletter? Subscribe here!</h2>
+      <form onsubmit="return validateForm()">
+        <input type="text" id="name" placeholder="Enter Your Name" />
+        <input type="email" id="email" placeholder="Enter Your Email" />
+        <button type="submit">Subscribe</button>
+        <p id="form-error" class="error-msg"></p>
+      </form>
+    </section>
+  </main>
+  <!-- MY FOOTERS SECTION  -->
+  <footer>
+    <p id="greetings"></p>
+    <p>&copy; <span id="year"></span> Ken Nyangena</p>
+  </footer>
+
+  <!-- THIS IS WHERE I IMPORT MY SCRIPTS -->
+  <script src="script.js"></script>
+</body>
+</html>
